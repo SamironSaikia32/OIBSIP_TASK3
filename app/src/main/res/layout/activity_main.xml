@@ -14,10 +14,9 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
         android:textAlignment="viewEnd"
         android:text=""
-        android:textSize="45dp" />
+        android:textSize="30dp" />
 
     <TextView
         android:id="@+id/result_tv"
@@ -30,7 +29,7 @@
         android:layout_marginBottom="16dp"
         android:text="0"
         android:textAlignment="viewEnd"
-        android:textSize="64dp" />
+        android:textSize="55dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -50,7 +49,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#FFB3BA"
+                android:backgroundTint="#a0a05c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="C"
                 android:textSize="32dp"
@@ -60,7 +59,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
                 android:layout_height="72dp"
-                android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTint="#b09dce"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="("
@@ -71,7 +70,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
                 android:layout_height="72dp"
-                android:backgroundTint="@android:color/darker_gray"
+                android:backgroundTint="#b09dce"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text=")"
@@ -83,7 +82,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#bae1ff"
+                android:backgroundTint="#ecc43c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="/"
                 android:textSize="32dp"
@@ -104,6 +103,7 @@
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="7"
+                android:backgroundTint="#412568"
                 android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
@@ -112,6 +112,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
+                android:backgroundTint="#412568"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="8"
                 android:textSize="32dp"
@@ -120,6 +121,7 @@
                 android:id="@+id/button_eight"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
+                android:backgroundTint="#412568"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -132,7 +134,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#bae1ff"
+                android:backgroundTint="#ecc43c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="*"
                 android:textSize="32dp"
@@ -151,6 +153,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
+                android:backgroundTint="#412568"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="4"
                 android:textSize="32dp"
@@ -160,6 +163,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
                 android:layout_height="72dp"
+                android:backgroundTint="#412568"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="5"
@@ -169,6 +173,7 @@
                 android:id="@+id/button_five"/>
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
+                android:backgroundTint="#412568"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
@@ -181,7 +186,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#bae1ff"
+                android:backgroundTint="#ecc43c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="+"
                 android:textSize="32dp"
@@ -202,6 +207,7 @@
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="1"
+                android:backgroundTint="#412568"
                 android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
@@ -210,6 +216,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
+                android:backgroundTint="#412568"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="2"
                 android:textSize="32dp"
@@ -220,6 +227,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
+                android:backgroundTint="#412568"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="3"
                 android:textSize="32dp"
@@ -230,7 +238,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#bae1ff"
+                android:backgroundTint="#ecc43c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="-"
                 android:textSize="32dp"
@@ -249,7 +257,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#e0bbe4"
+                android:backgroundTint="#4c4936"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="AC"
                 android:textSize="20dp"
@@ -259,6 +267,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
                 android:layout_height="72dp"
+                android:backgroundTint="#412568"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="0"
@@ -269,6 +278,7 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="72dp"
                 android:layout_height="72dp"
+                android:backgroundTint="#412568"
                 app:cornerRadius="36dp"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="."
@@ -280,7 +290,7 @@
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 app:cornerRadius="36dp"
-                android:backgroundTint="#baffc9"
+                android:backgroundTint="#ecc43c"
                 style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:text="="
                 android:textSize="32dp"
